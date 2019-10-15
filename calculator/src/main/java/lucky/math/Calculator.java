@@ -10,4 +10,6 @@ public class Calculator<T> {
 	public <T> T calculate(T a, T b, Operation op) {
 		return (T) op.operation(a, b);
 	}
+	
+	
 }
